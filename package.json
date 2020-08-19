@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-server": "node socket-io-server/app.js"
+    "start-server": "node socket-io-server/app.js",
+    "start-client": "cd socket-io-client && npm start"
   },
   "repository": {
     "type": "git",
